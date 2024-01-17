@@ -731,6 +731,6 @@
     "DATE": "2024-01-17",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "URTI Mainboard",
-    "VERSION": "0.0.0+"
+    "VERSION": "0.1.0"
   }
 }
