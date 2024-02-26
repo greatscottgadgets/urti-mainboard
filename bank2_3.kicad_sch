@@ -2393,7 +2393,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 36.83 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ab743db-b93b-4a7f-8fe7-28695ccc46a5)
-    (property "Reference" "#PWR0317" (at 36.83 48.26 0)
+    (property "Reference" "#PWR0281" (at 36.83 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 36.83 39.37 0)
@@ -2408,12 +2408,6 @@
     (pin "1" (uuid a326d260-8b10-4871-9f9e-39a844a227e1))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0281") (unit 1)
         )
@@ -2477,9 +2471,6 @@
     (pin "2" (uuid 5b400009-8482-4c31-9a70-aa14fedef7ae))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C25") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C25") (unit 1)
         )
@@ -2490,7 +2481,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 114.3 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a97546f-4be0-4358-96e8-55dc928e20c6)
-    (property "Reference" "#PWR0317" (at 209.55 114.3 0)
+    (property "Reference" "#PWR09" (at 209.55 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 114.3 90)
@@ -2505,12 +2496,6 @@
     (pin "1" (uuid 075d1dbb-9f4b-4f2f-8c65-f27b344f3767))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR09") (unit 1)
         )
@@ -2521,7 +2506,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 58.42 93.98 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a9f1e14-19c7-481e-bab8-baa70c2d69ea)
-    (property "Reference" "#PWR0317" (at 54.61 93.98 0)
+    (property "Reference" "#PWR0324" (at 54.61 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 62.23 93.98 90)
@@ -2536,12 +2521,6 @@
     (pin "1" (uuid 5f73a324-9524-44c5-b1d3-0d22a62582ca))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0324") (unit 1)
         )
@@ -2552,7 +2531,7 @@
   (symbol (lib_id "Device:R") (at 80.01 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aa22a16-6205-44c3-8ad0-4ef8fffb5eec)
-    (property "Reference" "R38" (at 80.01 35.56 90)
+    (property "Reference" "R111" (at 80.01 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 80.01 38.1 90)
@@ -2580,9 +2559,6 @@
     (pin "2" (uuid 9d76d457-3760-447f-807f-035dde9eb9ac))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/f93ff067-5e9f-4565-b018-6e1ef186681c"
-          (reference "R38") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "R111") (unit 1)
         )
@@ -2618,7 +2594,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 134.62 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43037a78-490b-471b-94b7-e31f8b9d45cc)
-    (property "Reference" "#PWR0317" (at 209.55 134.62 0)
+    (property "Reference" "#PWR013" (at 209.55 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 134.62 90)
@@ -2633,12 +2609,6 @@
     (pin "1" (uuid 727a6b25-0388-475a-bb55-ee1f9fb4f20f))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR013") (unit 1)
         )
@@ -2649,7 +2619,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 58.42 91.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47104a09-4db1-4bcf-935d-9621542c7703)
-    (property "Reference" "#PWR0317" (at 54.61 91.44 0)
+    (property "Reference" "#PWR06" (at 54.61 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 62.23 91.44 90)
@@ -2664,12 +2634,6 @@
     (pin "1" (uuid 93f50697-dfcb-41fa-9d06-b06fd41ca6fa))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR06") (unit 1)
         )
@@ -2680,7 +2644,7 @@
   (symbol (lib_id "Device:R") (at 102.87 41.91 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4751c425-1239-4d1e-a786-438528ec2e24)
-    (property "Reference" "R24" (at 102.87 35.56 90)
+    (property "Reference" "R110" (at 102.87 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 102.87 38.1 90)
@@ -2708,9 +2672,6 @@
     (pin "2" (uuid 467daf88-6800-477c-ad81-cd047a283922))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
-          (reference "R24") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "R110") (unit 1)
         )
@@ -2721,7 +2682,7 @@
   (symbol (lib_id "power:GND") (at 127 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 488da17b-f551-468d-91bb-8d22e90877f6)
-    (property "Reference" "#PWR085" (at 127 189.23 0)
+    (property "Reference" "#PWR0290" (at 127 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127.127 187.2742 0)
@@ -2736,12 +2697,6 @@
     (pin "1" (uuid bca3bb56-3151-4618-b5a1-157857467b65))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR085") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/398ed715-d319-4823-8f52-c02f43302105"
-          (reference "#PWR085") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0290") (unit 1)
         )
@@ -2752,7 +2707,7 @@
   (symbol (lib_id "Device:C") (at 97.79 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59a13b8d-4ce2-4de3-8f52-9450d53b7b87)
-    (property "Reference" "C5" (at 101.6 45.72 0)
+    (property "Reference" "C164" (at 101.6 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 101.6 48.26 0)
@@ -2780,9 +2735,6 @@
     (pin "2" (uuid 7343cb48-69ee-43df-b6d1-aa66598453ee))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "C5") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C164") (unit 1)
         )
@@ -2821,9 +2773,6 @@
     (pin "2" (uuid 62b4b64a-8ecd-432a-8ba2-49721c28bde9))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C19") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C19") (unit 1)
         )
@@ -2834,7 +2783,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 38.1 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fbb2a6d-9fb7-484f-81f0-5e85d67ae106)
-    (property "Reference" "#PWR0317" (at 38.1 176.53 0)
+    (property "Reference" "#PWR02" (at 38.1 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 38.1 167.64 0)
@@ -2849,12 +2798,6 @@
     (pin "1" (uuid a993cf15-d988-4111-8c0d-1c8d256f9ffe))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR02") (unit 1)
         )
@@ -2865,7 +2808,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 127 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a412f5d-873b-47db-8e1b-53a6a6ea13ba)
-    (property "Reference" "#PWR0317" (at 127 176.53 0)
+    (property "Reference" "#PWR0287" (at 127 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 127 167.64 0)
@@ -2880,12 +2823,6 @@
     (pin "1" (uuid 45222842-7068-496c-88c1-c2f1565638a8))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0287") (unit 1)
         )
@@ -2974,9 +2911,6 @@
     (pin "2" (uuid 39b738ed-4606-4eb8-bd96-26bfcdb9506d))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C21") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C21") (unit 1)
         )
@@ -2987,7 +2921,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 139.7 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8899e071-7b78-47bc-8f12-746d38e4ba36)
-    (property "Reference" "#PWR0317" (at 209.55 139.7 0)
+    (property "Reference" "#PWR015" (at 209.55 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 139.7 90)
@@ -3002,12 +2936,6 @@
     (pin "1" (uuid 267e0e2d-3bb4-46d5-9619-f57fc53ca777))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR015") (unit 1)
         )
@@ -3018,7 +2946,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 142.24 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91af8ab1-6bd2-4af8-beae-8b4786eb09dd)
-    (property "Reference" "#PWR0317" (at 209.55 142.24 0)
+    (property "Reference" "#PWR016" (at 209.55 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 142.24 90)
@@ -3033,12 +2961,6 @@
     (pin "1" (uuid b37fa3c1-e4a2-43f2-965b-661d831e0b09))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR016") (unit 1)
         )
@@ -3049,7 +2971,7 @@
   (symbol (lib_id "power:GND") (at 38.1 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 934200ad-e655-49e0-a7b7-b50f26d7527f)
-    (property "Reference" "#PWR085" (at 38.1 189.23 0)
+    (property "Reference" "#PWR0288" (at 38.1 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.227 187.2742 0)
@@ -3064,12 +2986,6 @@
     (pin "1" (uuid 4b95f2fc-1753-489e-ba9a-07dc10d40d0c))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR085") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/398ed715-d319-4823-8f52-c02f43302105"
-          (reference "#PWR085") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0288") (unit 1)
         )
@@ -3080,7 +2996,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 190.5 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9882c0e3-302c-4310-a714-12adcec64a74)
-    (property "Reference" "#PWR0317" (at 190.5 49.53 0)
+    (property "Reference" "#PWR01" (at 190.5 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 190.5 40.64 0)
@@ -3095,12 +3011,6 @@
     (pin "1" (uuid 04c48a02-9893-4949-8a9d-4b60e8bbefb5))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR01") (unit 1)
         )
@@ -3428,7 +3338,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 58.42 121.92 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2486fa6-b3b3-4beb-bcf1-7b53a721d9d5)
-    (property "Reference" "#PWR0317" (at 54.61 121.92 0)
+    (property "Reference" "#PWR010" (at 54.61 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 62.23 121.92 90)
@@ -3443,12 +3353,6 @@
     (pin "1" (uuid 70522d12-0e77-4d97-8730-1e97f90026ee))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR010") (unit 1)
         )
@@ -3459,7 +3363,7 @@
   (symbol (lib_id "Device:R") (at 63.5 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bb2fbf00-d342-4086-b827-f3e6ac31be09)
-    (property "Reference" "R1" (at 66.04 156.21 0)
+    (property "Reference" "R131" (at 66.04 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 66.04 158.75 0)
@@ -3487,12 +3391,6 @@
     (pin "2" (uuid 8a4f7651-078b-4c1c-a355-85c7817f41df))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R1") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
-          (reference "R127") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "R131") (unit 1)
         )
@@ -3556,9 +3454,6 @@
     (pin "2" (uuid d0ee3c05-f28c-4a06-8d5f-81f9ceb0f812))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C28") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C28") (unit 1)
         )
@@ -3569,7 +3464,7 @@
   (symbol (lib_id "power:GND") (at 63.5 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5ba3f5a-35d9-4ad0-afa9-9ce9dd6188c0)
-    (property "Reference" "#PWR0336" (at 63.5 168.91 0)
+    (property "Reference" "#PWR0340" (at 63.5 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 63.5 167.64 0)
@@ -3584,9 +3479,6 @@
     (pin "1" (uuid 3617316a-436f-43c4-851f-273990c32a4c))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
-          (reference "#PWR0336") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR0340") (unit 1)
         )
@@ -3597,7 +3489,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7a2ac0d-479f-4787-b4c7-a53f4bf69630)
-    (property "Reference" "#PWR0317" (at 209.55 81.28 0)
+    (property "Reference" "#PWR04" (at 209.55 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 81.28 90)
@@ -3612,12 +3504,6 @@
     (pin "1" (uuid 6b663672-95bb-4533-af3c-f78c235b93fd))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR04") (unit 1)
         )
@@ -3653,7 +3539,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 76.2 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de9b4408-bd55-4319-afaa-940c61b79a96)
-    (property "Reference" "#PWR0317" (at 209.55 76.2 0)
+    (property "Reference" "#PWR03" (at 209.55 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 76.2 90)
@@ -3668,12 +3554,6 @@
     (pin "1" (uuid 6aefc8ef-80fb-433f-895d-b279bea45e1a))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR03") (unit 1)
         )
@@ -3976,7 +3856,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 213.36 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9789397-32b2-4048-b7e8-f4c54b35cab0)
-    (property "Reference" "#PWR0317" (at 209.55 104.14 0)
+    (property "Reference" "#PWR08" (at 209.55 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 217.17 104.14 90)
@@ -3991,12 +3871,6 @@
     (pin "1" (uuid aa099a5c-1e49-4920-8cbe-c792112b751c))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "#PWR08") (unit 1)
         )
@@ -4007,7 +3881,7 @@
   (symbol (lib_id "Device:C") (at 85.09 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f20f7abf-d94d-4da0-8e1b-d8ddb0c7e763)
-    (property "Reference" "C5" (at 88.9 45.72 0)
+    (property "Reference" "C163" (at 88.9 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1nF" (at 88.9 48.26 0)
@@ -4035,9 +3909,6 @@
     (pin "2" (uuid 9be96d2b-0756-49b5-a4bf-eb1dbc9a3dab))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "C5") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
           (reference "C163") (unit 1)
         )

@@ -1235,7 +1235,7 @@
   (symbol (lib_id "Device:R") (at 147.32 162.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 05928fae-cbfa-4b68-917f-b69704a325ea)
-    (property "Reference" "R1" (at 149.86 161.29 0)
+    (property "Reference" "R130" (at 149.86 161.29 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 149.86 163.83 0)
@@ -1263,9 +1263,6 @@
     (pin "2" (uuid 35bc4974-0b96-45a7-addb-d9c89bf622ed))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R1") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R130") (unit 1)
         )
@@ -1276,7 +1273,7 @@
   (symbol (lib_id "Device:C") (at 254 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07de968a-8e89-4012-bf20-4c5f70d13d65)
-    (property "Reference" "C159" (at 257.81 45.72 0)
+    (property "Reference" "C196" (at 257.81 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 257.81 48.26 0)
@@ -1304,14 +1301,8 @@
     (pin "2" (uuid fc35cf1c-9813-4d50-9b24-baaeeb879724))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C159") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "C196") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "C160") (unit 1)
         )
       )
     )
@@ -1351,9 +1342,6 @@
     (pin "5" (uuid 2a8e9b31-51f2-4f25-9fff-8ef511b838c3))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8/7de50682-6b71-4a52-a232-adeadc6fa327"
-          (reference "U21") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "U21") (unit 1)
         )
@@ -1364,25 +1352,28 @@
   (symbol (lib_id "74xGxx:74LVC1G06") (at 165.1 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ca8fad9-38d8-4b88-a75c-c9dac449fcd0)
-    (property "Reference" "U19" (at 162.2141 63.5 0)
+    (property "Reference" "U25" (at 162.2141 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LVC1G06" (at 162.2141 66.04 0)
+    (property "Value" "74AHC1G14" (at 162.2141 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf" (at 165.1 74.93 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHC1G14.pdf" (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "IC INVERTER 1CH 1-INP 5TSSOP" (at 165.1 74.93 0)
+    (property "Description" "IC INVERT SCHMITT 1CH 1IN SOT353" (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Nexperia" (at 165.1 74.93 0)
+    (property "Manufacturer" "Diodes Inc." (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "74LVC1G06GW,125" (at 165.1 74.93 0)
+    (property "Part Number" "74AHC1G14SE-7" (at 165.1 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Substitution" "74AHC1G14" (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid 1872dcb9-c67f-40df-9675-8e2697fb4be2))
@@ -1391,12 +1382,6 @@
     (pin "3" (uuid 6c8b60e4-cc4f-4069-830b-8b7471500b59))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "U19") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "U22") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "U25") (unit 1)
         )
@@ -1407,7 +1392,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 165.1 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ce96db7-5077-4793-9fd8-1bbf4daa0226)
-    (property "Reference" "#PWR0194" (at 165.1 138.43 0)
+    (property "Reference" "#PWR0145" (at 165.1 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 137.16 0)
@@ -1422,15 +1407,6 @@
     (pin "1" (uuid ae40bd6a-f99e-4322-84ce-314d25e9b40e))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77"
-          (reference "#PWR0194") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0193") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0294") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0145") (unit 1)
         )
@@ -1441,7 +1417,7 @@
   (symbol (lib_id "Device:C") (at 88.9 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22156c41-fedc-4c72-a707-4a777b83f94c)
-    (property "Reference" "C39" (at 91.821 109.3216 0)
+    (property "Reference" "C158" (at 91.821 109.3216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 91.821 111.633 0)
@@ -1469,9 +1445,6 @@
     (pin "2" (uuid c748747e-99c3-48ab-8d95-afdece70a5c5))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C39") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "C158") (unit 1)
         )
@@ -1482,7 +1455,7 @@
   (symbol (lib_id "power:GND") (at 160.02 87.63 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2452ae66-d8e9-4669-9efd-e45c66da79a7)
-    (property "Reference" "#PWR0271" (at 160.02 93.98 0)
+    (property "Reference" "#PWR0312" (at 160.02 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 92.71 0)
@@ -1497,12 +1470,6 @@
     (pin "1" (uuid 5ef3b6d0-76a1-4b8b-b61a-0caa01bb1574))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0271") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0286") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0312") (unit 1)
         )
@@ -1513,7 +1480,7 @@
   (symbol (lib_id "Device:C") (at 241.3 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2953be3e-1f1b-464b-b004-b5348f6f775a)
-    (property "Reference" "C159" (at 244.221 141.0716 0)
+    (property "Reference" "C160" (at 244.221 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 244.221 143.383 0)
@@ -1541,17 +1508,8 @@
     (pin "2" (uuid 53230d3b-74d5-430d-8d40-9304f366ec00))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C159") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "C160") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "C160") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "C162") (unit 1)
         )
       )
     )
@@ -1610,7 +1568,7 @@
   (symbol (lib_id "Device:C") (at 241.3 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 396a8917-6f30-4e9f-9039-b4949f8c490d)
-    (property "Reference" "C159" (at 245.11 45.72 0)
+    (property "Reference" "C62" (at 245.11 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 245.11 48.26 0)
@@ -1638,14 +1596,8 @@
     (pin "2" (uuid 9fa4c377-c7c4-4e5a-b2d3-7942a06700e6))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C159") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "C62") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "C160") (unit 1)
         )
       )
     )
@@ -1671,15 +1623,6 @@
       (project "mainboard"
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0286") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0284") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0288") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0296") (unit 1)
         )
       )
     )
@@ -1713,7 +1656,7 @@
   (symbol (lib_id "power:GND") (at 160.02 49.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e466b9f-2b1c-4486-9cad-cea3adee4c3b)
-    (property "Reference" "#PWR0271" (at 160.02 55.88 0)
+    (property "Reference" "#PWR0135" (at 160.02 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 54.61 0)
@@ -1728,12 +1671,6 @@
     (pin "1" (uuid 8fa6e13d-4acb-4a99-adde-6c2ba1173cb5))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0271") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0286") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0135") (unit 1)
         )
@@ -1744,7 +1681,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 93.98 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 508fc82a-c199-4de4-9f01-93969d02f3df)
-    (property "Reference" "#PWR0317" (at 93.98 77.47 0)
+    (property "Reference" "#PWR0171" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 93.98 68.58 0)
@@ -1759,18 +1696,6 @@
     (pin "1" (uuid 79ca2d92-2795-4c56-ae1c-f22ee9ae7448))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
-          (reference "#PWR0287") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "#PWR0114") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0171") (unit 1)
         )
@@ -1812,9 +1737,6 @@
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "U20") (unit 1)
         )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "U20") (unit 1)
-        )
       )
     )
   )
@@ -1822,7 +1744,7 @@
   (symbol (lib_id "power:GND") (at 160.02 170.18 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56e94776-51bf-45ae-ba8f-17f4420aef08)
-    (property "Reference" "#PWR0271" (at 160.02 176.53 0)
+    (property "Reference" "#PWR0143" (at 160.02 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 160.02 174.6234 0)
@@ -1837,15 +1759,6 @@
     (pin "1" (uuid ca8276c8-f111-47ed-883f-3088e1ed02a9))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0271") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0286") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0289") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0143") (unit 1)
         )
@@ -1881,7 +1794,7 @@
   (symbol (lib_id "support_hardware:3V3RX") (at 241.3 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5e656948-85fe-4bd5-8743-5542504f4753)
-    (property "Reference" "#PWR0295" (at 241.3 140.97 0)
+    (property "Reference" "#PWR0285" (at 241.3 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3RX" (at 241.3 132.08 0)
@@ -1896,9 +1809,6 @@
     (pin "1" (uuid 6a1151e3-7156-4616-a421-ee143d1063da))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0295") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0285") (unit 1)
         )
@@ -1909,7 +1819,7 @@
   (symbol (lib_id "Device:R") (at 147.32 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 65802457-cb98-48a7-b219-f25d3211cc88)
-    (property "Reference" "R1" (at 149.86 40.64 0)
+    (property "Reference" "R127" (at 149.86 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 149.86 43.18 0)
@@ -1937,9 +1847,6 @@
     (pin "2" (uuid 049278cc-f30f-41ec-b827-6bc879793732))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R1") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R127") (unit 1)
         )
@@ -1950,7 +1857,7 @@
   (symbol (lib_id "Device:R") (at 44.45 74.93 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6da678a7-920e-48dd-8657-977b6164b424)
-    (property "Reference" "R22" (at 41.91 73.66 0)
+    (property "Reference" "R18" (at 41.91 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 41.91 76.2 0)
@@ -1978,9 +1885,6 @@
     (pin "2" (uuid 267745e5-9b26-4455-987e-6327d1d40c02))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
-          (reference "R22") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R18") (unit 1)
         )
@@ -1991,7 +1895,7 @@
   (symbol (lib_id "Device:R") (at 76.2 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 6f5f82e3-c5d4-4b55-b005-2f80fd0ef0c1)
-    (property "Reference" "R1" (at 78.74 83.82 0)
+    (property "Reference" "R115" (at 78.74 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 78.74 86.36 0)
@@ -2019,9 +1923,6 @@
     (pin "2" (uuid 4ba20171-0ed2-4e94-a744-c05713fc8dfc))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R1") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R115") (unit 1)
         )
@@ -2050,12 +1951,6 @@
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0137") (unit 1)
         )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0284") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0288") (unit 1)
-        )
       )
     )
   )
@@ -2063,7 +1958,7 @@
   (symbol (lib_id "Device:C") (at 254 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78ac88b0-0200-455f-b6d2-87e122180447)
-    (property "Reference" "C159" (at 256.921 141.0716 0)
+    (property "Reference" "C161" (at 256.921 141.0716 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 256.921 143.383 0)
@@ -2091,16 +1986,7 @@
     (pin "2" (uuid c2c214ea-b8c2-4bb6-b9b8-a9e091c23656))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C159") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
-          (reference "C161") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "C160") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
           (reference "C161") (unit 1)
         )
       )
@@ -2110,7 +1996,7 @@
   (symbol (lib_id "support_hardware:3V3TX") (at 160.02 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e1630e1-1742-465e-867f-ae58155ca096)
-    (property "Reference" "#PWR0285" (at 160.02 29.21 0)
+    (property "Reference" "#PWR0134" (at 160.02 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3TX" (at 160.02 20.32 0)
@@ -2125,9 +2011,6 @@
     (pin "1" (uuid 77373ffd-76e8-408b-a615-7688ed912c7f))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0285") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0134") (unit 1)
         )
@@ -2206,12 +2089,6 @@
       (project "mainboard"
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R36") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "R106") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "R108") (unit 1)
         )
       )
     )
@@ -2308,7 +2185,7 @@
   (symbol (lib_id "support_hardware:3V3RX") (at 160.02 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a005a5e7-7c69-437e-bc51-0fa105569085)
-    (property "Reference" "#PWR0292" (at 160.02 149.86 0)
+    (property "Reference" "#PWR0141" (at 160.02 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3RX" (at 160.02 140.97 0)
@@ -2323,9 +2200,6 @@
     (pin "1" (uuid 0360ff97-cf5a-466e-bf0f-5bc282b20568))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0292") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0141") (unit 1)
         )
@@ -2361,7 +2235,7 @@
   (symbol (lib_id "Device:C") (at 76.2 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a1a8207a-c1c7-4a25-829b-04abcac32b06)
-    (property "Reference" "C39" (at 79.121 109.3216 0)
+    (property "Reference" "C56" (at 79.121 109.3216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 79.121 111.633 0)
@@ -2389,9 +2263,6 @@
     (pin "2" (uuid 9834f5a9-b6d6-49a1-bac6-745b61ab5bec))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "C39") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "C56") (unit 1)
         )
@@ -2432,9 +2303,6 @@
       (project "mainboard"
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R35") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "R107") (unit 1)
         )
       )
     )
@@ -2524,9 +2392,6 @@
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R34") (unit 1)
         )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "R106") (unit 1)
-        )
       )
     )
   )
@@ -2572,25 +2437,25 @@
   (symbol (lib_id "74xGxx:74LVC1G06") (at 165.1 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b2b459fd-cde6-42e3-8d23-32575763167c)
-    (property "Reference" "U19" (at 162.2141 25.4 0)
+    (property "Reference" "U22" (at 162.2141 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LVC1G06" (at 162.2141 27.94 0)
+    (property "Value" "74AHC1G14" (at 162.2141 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf" (at 165.1 36.83 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHC1G14.pdf" (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "IC INVERTER 1CH 1-INP 5TSSOP" (at 165.1 36.83 0)
+    (property "Description" "IC INVERT SCHMITT 1CH 1IN SOT353" (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Nexperia" (at 165.1 36.83 0)
+    (property "Manufacturer" "Diodes Inc." (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "74LVC1G06GW,125" (at 165.1 36.83 0)
+    (property "Part Number" "74AHC1G14SE-7" (at 165.1 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid 3b6d8afc-f3e8-48a2-8086-f6c9b83ef490))
@@ -2599,12 +2464,6 @@
     (pin "3" (uuid 011045f9-40cd-430e-a25f-1c7d279e95fc))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "U19") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "U22") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "U22") (unit 1)
         )
@@ -2615,7 +2474,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 76.2 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6db580e-ae1f-43a2-8641-359b661fbbda)
-    (property "Reference" "#PWR0317" (at 76.2 109.22 0)
+    (property "Reference" "#PWR0170" (at 76.2 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 76.2 100.33 0)
@@ -2630,18 +2489,6 @@
     (pin "1" (uuid b744cdef-aebb-46bc-84d3-3e36d8d3d5b0))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
-          (reference "#PWR0287") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "#PWR0114") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0170") (unit 1)
         )
@@ -2652,7 +2499,7 @@
   (symbol (lib_id "radio:Conn_Coaxial_MM8930-2620") (at 68.58 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c1f3170c-b6a4-46d3-ac1e-6bac1d00350e)
-    (property "Reference" "J5" (at 68.58 72.39 0)
+    (property "Reference" "J12" (at 68.58 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SWH" (at 68.58 74.93 0)
@@ -2681,9 +2528,6 @@
     (pin "3" (uuid 827bbbc9-7942-4665-a357-5f80ebcc6571))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "J5") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "J12") (unit 1)
         )
@@ -2719,7 +2563,7 @@
   (symbol (lib_id "support_hardware:3V3TX") (at 160.02 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d00630dd-e822-42bf-915f-82ff851f5abc)
-    (property "Reference" "#PWR0285" (at 160.02 67.31 0)
+    (property "Reference" "#PWR0311" (at 160.02 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3TX" (at 160.02 58.42 0)
@@ -2734,9 +2578,6 @@
     (pin "1" (uuid 303b0a4b-9c02-4817-8d91-47108c3494e0))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0285") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0311") (unit 1)
         )
@@ -2767,12 +2608,6 @@
         )
       )
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0158") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0303") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0304") (unit 1)
         )
@@ -2783,7 +2618,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 53.34 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3795fac-c9a8-47d8-9bb0-b75176e71ce2)
-    (property "Reference" "#PWR0317" (at 53.34 72.39 0)
+    (property "Reference" "#PWR0129" (at 53.34 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 53.34 63.5 0)
@@ -2798,18 +2633,6 @@
     (pin "1" (uuid 775df9d4-51b3-4534-8e21-432ace6156fd))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
-          (reference "#PWR0287") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "#PWR0114") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0129") (unit 1)
         )
@@ -2857,7 +2680,7 @@
   (symbol (lib_id "support_hardware:3V3TX") (at 241.3 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc36266d-64ff-4aea-bde7-825e347c4d41)
-    (property "Reference" "#PWR0293" (at 241.3 45.72 0)
+    (property "Reference" "#PWR0136" (at 241.3 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3TX" (at 241.3 36.83 0)
@@ -2872,9 +2695,6 @@
     (pin "1" (uuid c5f1f674-3011-48df-9539-64b0901287c4))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "#PWR0293") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0136") (unit 1)
         )
@@ -2885,25 +2705,28 @@
   (symbol (lib_id "74xGxx:74LVC1G06") (at 165.1 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2b09a62-26ea-4b96-ae79-abae6f1ac9b4)
-    (property "Reference" "U19" (at 167.64 148.59 0)
+    (property "Reference" "U23" (at 167.64 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LVC1G06" (at 167.64 151.13 0)
+    (property "Value" "74AHC1G14" (at 167.64 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 165.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf" (at 165.1 157.48 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/74AHC1G14.pdf" (at 165.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "IC INVERTER 1CH 1-INP 5TSSOP" (at 165.1 157.48 0)
+    (property "Description" "IC INVERT SCHMITT 1CH 1IN SOT353" (at 165.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer" "Nexperia" (at 165.1 157.48 0)
+    (property "Manufacturer" "Diodes Inc." (at 165.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Part Number" "74LVC1G06GW,125" (at 165.1 157.48 0)
+    (property "Part Number" "74AHC1G14SE-7" (at 165.1 157.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Substitution" "74AHC1G14" (at 165.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "5" (uuid 880df021-c76d-4afe-8395-0d042c1b4ca5))
@@ -2912,15 +2735,6 @@
     (pin "3" (uuid d455a1fc-fb5b-41db-a598-fa1677cd010d))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "U19") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "U22") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "U23") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "U23") (unit 1)
         )
@@ -2962,12 +2776,6 @@
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "R106") (unit 1)
         )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/6aa278c8-8281-4438-81b7-90e6d7ac4f12"
-          (reference "R107") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "R109") (unit 1)
-        )
       )
     )
   )
@@ -2975,7 +2783,7 @@
   (symbol (lib_id "support_hardware:3V3RX") (at 165.1 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edc3f214-9906-4649-af77-d500cfeed00e)
-    (property "Reference" "#PWR0290" (at 165.1 107.95 0)
+    (property "Reference" "#PWR0144" (at 165.1 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3RX" (at 165.1 99.06 0)
@@ -2990,9 +2798,6 @@
     (pin "1" (uuid 1caec3a2-d94d-4258-bd42-76c540a955a4))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/4ec621be-184d-4855-a96d-f6fa2a788a77/90da2209-0e18-4bd4-8ef6-3d6f9ed46ff8"
-          (reference "#PWR0290") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/07741d92-cb3b-401f-9c7e-29f688af7269"
           (reference "#PWR0144") (unit 1)
         )

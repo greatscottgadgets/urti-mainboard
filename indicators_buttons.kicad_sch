@@ -1530,7 +1530,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 214.63 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22bc856c-90b3-46b8-9380-f7d5fe49f419)
-    (property "Reference" "#PWR0317" (at 214.63 49.53 0)
+    (property "Reference" "#PWR0291" (at 214.63 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 214.63 40.64 0)
@@ -1545,18 +1545,6 @@
     (pin "1" (uuid f6d73dc4-446d-4713-8165-463ac9bc08ab))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
-          (reference "#PWR0287") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "#PWR0114") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "#PWR0291") (unit 1)
         )
@@ -1671,9 +1659,6 @@
     (pin "2" (uuid 5b8daba5-664e-44e9-9153-024ce1d7f8bd))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R4") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "R4") (unit 1)
         )
@@ -1813,9 +1798,6 @@
     (pin "2" (uuid 56aa1b34-8ca0-4e35-a6d6-d923e6f34efb))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "R3") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "R3") (unit 1)
         )
@@ -1841,9 +1823,6 @@
     (pin "1" (uuid c2e41334-c84f-49eb-a53a-1b8d537be86c))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "#PWR017") (unit 1)
         )
@@ -1929,7 +1908,7 @@
   (symbol (lib_id "support_hardware:3V3FPGA") (at 116.84 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e6d5e2c-db2c-404e-aa43-b22fa139cfa7)
-    (property "Reference" "#PWR0317" (at 116.84 139.7 0)
+    (property "Reference" "#PWR093" (at 116.84 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "3V3FPGA" (at 116.84 130.81 0)
@@ -1944,18 +1923,6 @@
     (pin "1" (uuid 06d6353c-fcd2-410f-aa33-67c175513009))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005da7baf4"
-          (reference "#PWR0317") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/d6473fd6-7fca-4f4e-a434-76243f5aa389"
-          (reference "#PWR0147") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/88637316-1688-4ac4-b530-3f2433cec3c1"
-          (reference "#PWR0287") (unit 1)
-        )
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcd9772"
-          (reference "#PWR0114") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "#PWR093") (unit 1)
         )
@@ -1994,9 +1961,6 @@
     (pin "2" (uuid c83ea778-ee11-47ca-81e2-b19d6ef69801))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "C1") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "C1") (unit 1)
         )
@@ -2072,9 +2036,6 @@
     (pin "1" (uuid 456e4aef-c5d1-42aa-979b-8c06011d445c))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "#PWR021") (unit 1)
         )
@@ -2175,9 +2136,6 @@
     (pin "1" (uuid b9dcc946-b130-4855-bebe-c1931df59b14))
     (instances
       (project "mainboard"
-        (path "/fb621148-8145-4217-9712-738e1b5a4823/00000000-0000-0000-0000-00005dcaa6d2"
-          (reference "TP1") (unit 1)
-        )
         (path "/fb621148-8145-4217-9712-738e1b5a4823/c0a1b8fd-bfd5-4925-b24e-24a40b8a6b17"
           (reference "TP1") (unit 1)
         )
