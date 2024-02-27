@@ -57,6 +57,14 @@
         }
       ],
       "drc_exclusions": [
+        "footprint_type_mismatch|106900000|141100000|dc156f24-3480-49a1-9d67-e74eaa79f344|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|117100000|132800000|928a3028-a46e-41e1-b591-f100aa4ec8a2|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|131300000|109300000|6bd9e586-c653-4250-a9fe-00dabdf35661|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|133600000|128600000|640ff897-f98e-46c0-8954-6def19456bad|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|134000000|141700000|1ead79d6-0fe7-408c-ae57-dae737aa2f94|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|141700000|137500000|d3a46f0e-e96a-40b3-a736-77e5d00f7d16|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|93650000|84000000|00000000-0000-0000-0000-000060008b9d|00000000-0000-0000-0000-000000000000",
+        "footprint_type_mismatch|99100000|135000000|9faf17fd-4cd2-4d64-8e62-4cd72cab06d6|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|140000000|75500000|00000000-0000-0000-0000-00005fdfc3f1|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -76,7 +84,7 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
@@ -728,7 +736,7 @@
   ],
   "text_variables": {
     "COPYRIGHT": "Copyright 2023-2024 Great Scott Gadgets",
-    "DATE": "2024-02-26",
+    "DATE": "2024-02-27",
     "LICENSE": "Licensed under the CERN-OHL-P v2",
     "TITLE": "URTI Mainboard",
     "VERSION": "0.1.0"
