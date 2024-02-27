@@ -18,13 +18,11 @@
     (property "ki_description" "USB 2.0 SPDT switch" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "TC7USB42MU_0_1"
+    (symbol "TC7USB42MU_1_1"
       (rectangle (start -5.08 7.62) (end 5.08 -7.62)
-        (stroke (width 0.1524) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type background))
       )
-    )
-    (symbol "TC7USB42MU_1_1"
       (pin bidirectional line (at -7.62 5.08 0) (length 2.54)
         (name "D+" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -86,13 +84,11 @@
     (property "ki_description" "ULPI USB Transciever (PHY)" (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "USB3343_0_1"
+    (symbol "USB3343_1_1"
       (rectangle (start 2.54 0) (end 30.48 -45.72)
-        (stroke (width 0) (type default))
+        (stroke (width 0.254) (type default))
         (fill (type background))
       )
-    )
-    (symbol "USB3343_1_1"
       (pin output line (at 0 -30.48 0) (length 2.54)
         (name "DIR" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
